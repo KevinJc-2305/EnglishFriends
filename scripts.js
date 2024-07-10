@@ -38,12 +38,12 @@ document.addEventListener('DOMContentLoaded', function() {
         },
         btn4: {
             title: 'Cuarta unidad: Los lugares',
-            text: 'Aquí va el contenido de la cuarta unidad.',
+            text: 'A todos nos ha pasado que vamos de paseo los fines de semana con nuestros padres, EXACTO, algunas veces viajamos y vamos de un lugar a otro, la unidad que veremos a continuacion se llama los lugares de la cuidad, es importante saber como se llaman en otro idioma para nuestras proximas vacaiones.',
             video: 'https://www.youtube.com/embed/EsWIJj04oQw'
         },
         btn5: {
             title: 'Quinta unidad: Los trabajos',
-            text: 'Aquí va el contenido de la quinta unidad.',
+            text: '¿Sabes en que trabaja tu papá? te gustaria saber esa y muchas otras mas profesiones en ingles, los trabajos son divertidos y aunque el ingles es un idioma nuevo para muchos, los trabajos aunque no lo creas en ingles se escriben similar en español, bueno en algunos casos .',
             video: 'https://www.youtube.com/embed/ugsRzHMIF2o'
         }
     };
