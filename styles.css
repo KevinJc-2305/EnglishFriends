@@ -257,7 +257,6 @@ nav button:hover {
 }
 
 /*********/
-
 .overlay2 {
     display: none; /* Oculto por defecto */
     position: fixed;
@@ -270,7 +269,10 @@ nav button:hover {
     align-items: center;
     z-index: 1000;
 }
-
+.examenMenu button:hover {
+    transform: scale(1.1);
+    background-color: #c920c9;
+}
 .examenMenu {
     background-color: #fff;
     padding: 20px;
@@ -278,6 +280,37 @@ nav button:hover {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     z-index: 1001;
+}
+
+
+.preguntas{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.choices-container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+.choice {
+    text-align: center;
+}
+.choice img {
+    width: 100px;
+    height: 100px;
+    display: block;
+    margin-bottom: 10px;
+}
+.pie{
+    display: flex;
+    margin-top: 7px;
+    align-items: flex-end;
+    float: right;
+}
+.result{
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .examenMenu p {
@@ -294,8 +327,4 @@ nav button:hover {
     cursor: pointer;
     border-radius: 5px;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
-}
-.examenMenu button:hover {
-    transform: scale(1.1);
-    background-color: #c920c9;
 }

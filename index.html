@@ -74,28 +74,36 @@
                 </div>
             </div>
 
+
             <div id="overlay2" class="overlay2">
                 <div id="examenMenu" class="examenMenu">
-                    <h1>Vamos a evaluar lo aprendido</h1>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
-                    <p>.</p>
+                    <h1 id="TituloGrande">Vamos a evaluar lo aprendido</h1>
+                    <div class="preguntas" id="questionImage">
+                        <img src="src/evaluations/01Question.png">     
+                    </div>
+                    <div class="respuestas">
+                        <div class="choices-container">
+                            <div class="choice">
+                                <img src="src/evaluations/One.png" alt="Opción 1">
+                                <input type="radio" name="choice" value="option1">
+                            </div>
+                            <div class="choice">
+                                <img src="src/evaluations/Two.png" alt="Opción 2">
+                                <input type="radio" name="choice" value="option2">
+                            </div>
+                            <div class="choice">
+                                <img src="src/evaluations/Three.png" alt="Opción 3">
+                                <input type="radio" name="choice" value="option3">
+                            </div>
+                        </div>
+                    </div>
+                    
                     <button id="closeExamen">Cerrar</button>
-                    <button id="verCalificacion">Ver Calificacion</button>
+                    <button id="verCalificacion">Calficar</button>
+                    <div class="pie">
+                        <div id="result" class="result"></div>
+                    </div>
+                    <button id="siguiente">></button>
                 </div>
             </div>
 
