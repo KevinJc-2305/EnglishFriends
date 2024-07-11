@@ -13,11 +13,17 @@ document.getElementById("closeMenu").addEventListener("click", function() {
 /*
 Para mostrar y ocultar el nav lateral
 */
-const toggleNavButton = document.getElementById('toggleNavButton');
-const nav = document.querySelector('.nav');
+document.getElementById('toggleNavButton').addEventListener('click', function() {
+    var nav = document.getElementById('navBar');
+    var content = document.getElementById('mainContent');
 
-toggleNavButton.addEventListener('click', function() {
-    nav.classList.toggle('nav-hidden');
+    if (nav.classList.contains('hidden')) {
+        nav.classList.remove('hidden');
+        content.classList.remove('expanded');
+    } else {
+        nav.classList.add('hidden');
+        content.classList.add('expanded');
+    }
 });
 
 

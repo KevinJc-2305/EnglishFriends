@@ -71,8 +71,17 @@ header {
     height: 100vh;
     overflow: hidden;
     transform: translateX(0);
-    transition: transform 0.6s ease;
+    transition: width 0.3s;
 }
+.hidden {
+    width: 0;
+}
+
+.expanded {
+    margin-left: 0;
+    width: 100%;
+}
+
 nav button:hover {
     transform: translateX(5px); /* Desplaza el botón 5px hacia la derecha */
 }
@@ -103,7 +112,7 @@ nav button:hover {
     align-items: center;
     width: 95%;
     height: 95%;
-    transition: transform 0.6s ease; /* Transición suave */
+    transition: margin-left 0.3s, width 0.3s; /* Transición suave */
     overflow: hidden; /* Ocultar contenido que se desborde */
 }
 .divid{
