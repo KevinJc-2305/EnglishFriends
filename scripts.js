@@ -10,6 +10,19 @@ document.getElementById("closeMenu").addEventListener("click", function() {
     document.getElementById("overlay").style.display = "none";
 });
 
+
+/*
+Para el menú emergente del examen 
+*/
+document.getElementById("examenButton").addEventListener("click", function() {
+    document.getElementById("overlay2").style.display = "flex";
+});
+
+document.getElementById("closeExamen").addEventListener("click", function() {
+    document.getElementById("overlay2").style.display = "none";
+});
+
+
 /*
 Para mostrar y ocultar el nav lateral
 */
