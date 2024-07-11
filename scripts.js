@@ -47,27 +47,27 @@ document.addEventListener('DOMContentLoaded', function() {
         btn1: {
             title: 'Primera unidad: Los números',
             text: 'Los números son fundamentales en el aprendizaje temprano y son esenciales para la vida cotidiana. Y mas para nuestros pequeños exploradores los cuales debemos fomentar de manera interactiva estas pequeñas cosas que les serviran en un futuro academico, cosas simples como contar, sumar seran significativas en su futuro.',
-            video: 'https://www.youtube.com/embed/b02Ojls1O14'
+            video: 'src/units/numbersMedia.mp4'
         },
         btn2: {
             title: 'Segunda unidad: Los colores',
             text: ' Los colores influyen en nuestras emociones, percepciones y decisiones. Para los niños, aprender los colores es crucial para identificar objetos, expresar preferencias y comprender el entorno. Como los colores de un arcoiris!!!',
-            video: 'https://www.youtube.com/embed/ybt2jhCQ3lA'
+            video: 'src/units/colorsMedia.mp4'
         },
         btn3: {
             title: 'Tercera unidad: Los vehículos',
             text: 'Los medios de transporte nos conectan con el mundo. Desde caminar hasta viajar en avión, cada medio tiene su propósito y función, como el carro con el que papá va a al trabajo, o la moto en que mamá nos lleva a casa; incluso el avion en el que viajamos juntos.',
-            video: 'https://www.youtube.com/embed/0ynatfJauMk'
+            video: 'src/units/vehiclesMedia.mp4'
         },
         btn4: {
             title: 'Cuarta unidad: Los lugares',
             text: 'A todos nos ha pasado que vamos de paseo los fines de semana con nuestros padres, EXACTO, algunas veces viajamos y vamos de un lugar a otro, la unidad que veremos a continuacion se llama los lugares de la cuidad, es importante saber como se llaman en otro idioma para nuestras proximas vacaiones.',
-            video: 'https://www.youtube.com/embed/EsWIJj04oQw'
+            video: 'src/units/placesMedia.mp4'
         },
         btn5: {
             title: 'Quinta unidad: Los trabajos',
             text: '¿Sabes en que trabaja tu papá? te gustaria saber esa y muchas otras mas profesiones en ingles, los trabajos son divertidos y aunque el ingles es un idioma nuevo para muchos, los trabajos aunque no lo creas en ingles se escriben similar en español, bueno en algunos casos .',
-            video: 'https://www.youtube.com/embed/ugsRzHMIF2o'
+            video: 'src/units/jobsMedia.mp4'
         }
     };
 
