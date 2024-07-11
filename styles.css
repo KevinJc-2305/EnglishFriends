@@ -61,7 +61,7 @@ header {
 .container.nav-hidden main {
     margin-left: 0;
 }
-nav{
+.nav{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -76,7 +76,7 @@ nav{
 nav button:hover {
     transform: translateX(5px); /* Desplaza el botón 5px hacia la derecha */
 }
-nav.nav-hidden {
+.nav.nav-hidden {
     transform: translateX(-100%); /* Ocultar hacia la izquierda */
 }
 .nv{

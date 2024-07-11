@@ -14,12 +14,16 @@ document.getElementById("closeMenu").addEventListener("click", function() {
 Para mostrar y ocultar el nav lateral
 */
 const toggleNavButton = document.getElementById('toggleNavButton');
-const nav = document.querySelector('nav');
+const nav = document.querySelector('.nav');
 
+toggleNavButton.addEventListener('click', function() {
+    nav.classList.toggle('nav-hidden');
+});
+
+
+// Contenido a mostrar para cada botón
 document.addEventListener('DOMContentLoaded', function() {
     const contentDiv = document.getElementById('content');
-
-    // Contenido a mostrar para cada botón
     const content = {
         btn1: {
             title: 'Primera unidad: Los números',
