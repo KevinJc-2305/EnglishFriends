@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exploradores Ingeleses D</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <body>
+        
+        <header>       
+            <div class="dv">
+                <button class="bttt" id="toggleNavButton">=  </button>
+                <h1>Exploradores Ingleses</h1>
+            </div>
+            <a href="/proyectos/SS/index.html">
+                <div class="dv2">
+                    <button class="btt">Registrar</button>
+                    <button class="btt">Ingreso</button>
+                </div>
+            </a>
+        </header>
+        
+
+        <div class="container">
+            <nav class="nav" id="navBar">
+                <button class="nv nv1" id="btn1"></button>
+                <button class="nv nv2" id="btn2"></button>
+                <button class="nv nv3" id="btn3"></button>
+                <button class="nv nv4" id="btn4"></button>
+                <button class="nv nv5" id="btn5"></button>
+            </nav>
+
+            <main class="mainn" id="mainContent">
+                <div class="divid" id = "content">
+                    <h1>Welcome to Exploradores Ingleses</h1>
+                    <h3>Selecciona una unidad para aprender tu proxima leccion</h3>
+                    <div class="divVideo">
+                        <div class="video-container" id="videoContainer"></div>
+                    </div>
+                    
+                </div>
+            </main>
+        </div>
+        
+        <footer class="centrador">
+            <button class="enlaces" id="contactButton">CONTACTANOS</button>
+            <button class="examen"  id="examenButton">EXAMEN</button>
+            <div class="enlacesExternos">
+                <div>
+                    <a href="https://www.instagram.com">
+                    <img src="src/instagram.png"></a>
+                </div>                
+                <div>
+                    <a href="https://www.facebook.com">
+                    <img src="src/facebook.png"></a>
+                </div>
+                <div>    
+                    <a href="https://www.duolingo.com">
+                    <img src="src/duo.png"></a>
+                </div>
+                <div>
+                    <a href="https://julioperezferrero.edu.co/web/">
+                    <img src="src/logo.jpg"></a>
+                </div>
+            </div>
+            <div id="overlay" class="overlay">
+                <div id="contactMenu" class="contact-menu">
+                    <h2>Información de contacto:</h2>
+                    <p>Teléfono: ###-#######</p>
+                    <p>Email: correo@gmail.com</p>
+                    <button id="closeMenu">Cerrar</button>
+                </div>
+            </div>
+
+
+            <div id="overlay2" class="overlay2">
+                <div id="examenMenu" class="examenMenu">
+                    <h1 id="TituloGrande">Vamos a evaluar lo aprendido</h1>
+                    <div class="preguntas" id="questionImage">
+                        <img src="src/evaluations/01Question.png">     
+                    </div>
+                    <div class="respuestas">
+                        <div class="choices-container">
+                            <div class="choice">
+                                <img src="src/evaluations/One.png" alt="Opción 1">
+                                <input type="radio" name="choice" value="option1">
+                            </div>
+                            <div class="choice">
+                                <img src="src/evaluations/Two.png" alt="Opción 2">
+                                <input type="radio" name="choice" value="option2">
+                            </div>
+                            <div class="choice">
+                                <img src="src/evaluations/Three.png" alt="Opción 3">
+                                <input type="radio" name="choice" value="option3">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <button id="closeExamen">Cerrar</button>
+                    <button id="verCalificacion">Verificar</button>
+                    <div class="pie">
+                        <div id="result" class="result"></div>
+                    </div>
+                    <button id="siguiente">></button>
+                </div>
+            </div>
+
+            </footer>
+        <script src="scripts.js"></script>
+    </body>
+</body>
+</html>
