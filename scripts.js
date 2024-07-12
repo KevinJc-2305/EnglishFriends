@@ -142,7 +142,7 @@ Para la evaluacion
             questionImage: 'src/evaluations/04Question.png',
             options: [
                 { image: 'src/evaluations/Pink.png', value: 'option1' },
-                { image: 'src/evaluations/Yellow.png', value: 'option2' },
+                { image: 'src/evaluations/Green.png', value: 'option2' },
                 { image: 'src/evaluations/Cian.png', value: 'option3' }
             ],
             correctAnswer: 'option2'
