@@ -138,6 +138,61 @@ Para la evaluacion
             ],
             correctAnswer: 'option1'
         },
+        {
+            questionImage: 'src/evaluations/04Question.png',
+            options: [
+                { image: 'src/evaluations/Pink.png', value: 'option1' },
+                { image: 'src/evaluations/Yellow.png', value: 'option2' },
+                { image: 'src/evaluations/Cian.png', value: 'option3' }
+            ],
+            correctAnswer: 'option2'
+        },
+        {
+            questionImage: 'src/evaluations/05Question.png',
+            options: [
+                { image: 'src/evaluations/Yellow.png', value: 'option1' },
+                { image: 'src/evaluations/Green.png', value: 'option2' },
+                { image: 'src/evaluations/Blue.png', value: 'option3' }
+            ],
+            correctAnswer: 'option3'
+        },
+        {
+            questionImage: 'src/evaluations/06Question.png',
+            options: [
+                { image: 'src/evaluations/Red.png', value: 'option1' },
+                { image: 'src/evaluations/Blue.png', value: 'option2' },
+                { image: 'src/evaluations/Pink.png', value: 'option3' }
+            ],
+            correctAnswer: 'option1'
+        },
+        {
+            questionImage: 'src/evaluations/07Question.png',
+            options: [
+                { image: 'src/evaluations/Barco.gif', value: 'option1' },
+                { image: 'src/evaluations/Bici.gif', value: 'option2' },
+                { image: 'src/evaluations/Taxi.gif', value: 'option3' }
+            ],
+            correctAnswer: 'option3'
+        },
+        {
+            questionImage: 'src/evaluations/08Question.png',
+            options: [
+                { image: 'src/evaluations/Policeman.png', value: 'option1' },
+                { image: 'src/evaluations/Fireman.png', value: 'option2' },
+                { image: 'src/evaluations/Doctor.png', value: 'option3' }
+            ],
+            correctAnswer: 'option1'
+        },
+        {
+            questionImage: 'src/evaluations/09Question.png',
+            options: [
+                { image: 'src/evaluations/Supermarket.png', value: 'option1' },
+                { image: 'src/evaluations/Airport.png', value: 'option2' },
+                { image: 'src/evaluations/Garaje.png', value: 'option3' }
+            ],
+            correctAnswer: 'option2'
+        },
+        
     ];
 
     let currentQuestionIndex = 0;
