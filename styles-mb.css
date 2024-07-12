@@ -16,6 +16,7 @@ header {
     align-items: center;
     padding: 1px;
     border: 1px solid #000000;
+    border-radius: 5px;
 }
 .ttt{
     border-bottom: 1px solid black;
@@ -28,7 +29,6 @@ header {
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    border-bottom: 0px solid black;    
 }
 .dv2{
     display: flex;
@@ -55,8 +55,6 @@ header {
     border: 1px solid #000000;
     border-radius: 5px;
 }
-
-
 .container.nav-hidden main {
     margin-left: 0;
 }
@@ -78,9 +76,6 @@ header {
 .expanded {
     margin-left: 0;
     width: 100%;
-}
-nav button:hover {
-    transform: translateX(5px); /* Desplaza el botón 5px hacia la derecha */
 }
 .nav.nav-hidden {
     transform: translateX(-100%); /* Ocultar hacia la izquierda */
@@ -128,7 +123,8 @@ nav button:hover {
     overflow: hidden; /* Ocultar contenido que se desborde */
 }
 .divid{
-    margin-top: 50px;
+    position: relative;
+    margin-top: 10px;
     width: 80%;
     height: 100%;
     text-align: center;
@@ -143,11 +139,11 @@ nav button:hover {
     display: flex;
     justify-content: center;
     align-items: center; 
-    height: 400px;
+    height: 170px;
 }
 .video-container{
-    width: 600px;
-    height: 337px;
+    width: 300px;
+    height: 168px;
     position: relative;
 }
 .video-container iframe{
@@ -157,54 +153,39 @@ nav button:hover {
 /*-----------------------------------------------------------*/
 .centrador{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 10px;
     background-color: #f12af1b9;
-    border: 1px solid;
-    position: relative;
+    border: 1px solid black;
+    border-radius: 5px;
 }
 .enlaces{
-    position: absolute;
-    left: 4.5%;
-    width: 120px;
-    height: 30px;
-    border-radius: 10%;
-    cursor: pointer;
+    margin-left: 0;
+    padding: 10px 20px;
+    border: 1px solid black;
+    border-radius: 5px;
 }
-.examen{
-    
-    margin-left: auto;
-    margin-right: 30%;
-    width: 120px;
-    height: 30px;
-    border-radius: 10%;
-    cursor: pointer;
-    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
-}
-.examen:hover{
-    transform: scale(1.1);
-    background-color: #ffc1fff5;
-}
-
 .enlacesExternos{
     display: flex;
     flex-direction: row;
     align-items: flex-start;
     padding: 0;
+    border-radius: 5px;
+}
+.enlacesExternos div{
+    display: flex;
+    align-items: center;
 }
 .enlacesExternos img{
-    width: 50px;
-    height: 50px;
+    width: 45px;
+    height: 45px;
     padding: 0;
+    border-radius: 3px;
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
 }
-.enlacesExternos img:hover {
-    transform: scale(1.1); /* Aumenta el tamaño al 110% */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra para resaltar */
-}
 .overlay {
-    display: none; /* Oculto por defecto */
+    display: none;
     position: fixed;
     top: 0;
     left: 0;
@@ -241,7 +222,23 @@ nav button:hover {
     transform: scale(1.1);
     background-color: #c920c9;
 }
+
+
 /*********/
+.examen{
+    position: absolute;
+    width: 80px;
+    height: 30px;
+    border-radius: 10%;
+    cursor: pointer;
+    bottom: 0;
+    transform: translateX(-50%);
+    transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
+}
+.examen:hover{
+    transform: scale(1.1);
+    background-color: #ffc1fff5;
+}
 .overlay2 {
     display: none; /* Oculto por defecto */
     position: fixed;
