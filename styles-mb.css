@@ -222,8 +222,6 @@ header {
     transform: scale(1.1);
     background-color: #c920c9;
 }
-
-
 /*********/
 .examen{
     position: absolute;
@@ -234,10 +232,6 @@ header {
     bottom: 0;
     transform: translateX(-50%);
     transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out
-}
-.examen:hover{
-    transform: scale(1.1);
-    background-color: #ffc1fff5;
 }
 .overlay2 {
     display: none; /* Oculto por defecto */
@@ -251,10 +245,6 @@ header {
     align-items: center;
     z-index: 1000;
 }
-.examenMenu button:hover {
-    transform: scale(1.1);
-    background-color: #c920c9;
-}
 .examenMenu {
     background-color: #fff;
     padding: 20px;
@@ -262,7 +252,12 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
     z-index: 1001;
+    max-width: 80%;
+    max-height: 80%;
 }
+
+
+
 .preguntas{
     margin-top: 20px;
     display: flex;
@@ -277,9 +272,14 @@ header {
 .choice {
     text-align: center;
 }
+.preguntas img{
+    width: 200px;
+    height: 200px;
+}
+
 .choice img {
-    width: 100px;
-    height: 100px;
+    width: 60px;
+    height: 60px;
     display: block;
     margin-bottom: 10px;
 }

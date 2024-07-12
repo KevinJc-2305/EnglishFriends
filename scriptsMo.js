@@ -233,7 +233,7 @@ Para la evaluacion
             resultDiv.style.fontWeight = 'bold';
             return true; // Respuesta correcta
         } else {
-            resultDiv.textContent = 'Incorrecto. Intenta de nuevo.';
+            resultDiv.textContent = 'Incorrecto.';
             resultDiv.style.color = 'red';
             return false; // Respuesta incorrecta
         }
@@ -245,7 +245,7 @@ Para la evaluacion
         if (selectedOption) {
             checkAnswer(selectedOption.value);
         } else {
-            resultDiv.textContent = 'Selecciona una opción.';
+            resultDiv.textContent = 'Ups.';
             resultDiv.style.color = 'orange';
             resultDiv.style.fontWeight = 'normal'; // Asegurar que no esté en negrita si no se selecciona ninguna opción
         }
@@ -265,10 +265,11 @@ Para la evaluacion
                     tittleExam.textContent = '¡Fin del examen!';
                     submitBtn.style.display = 'none'; // Ocultar el botón de calificar
                     nextBtn.style.display = 'none'; // Ocultar el botón de siguiente
+                    questionImageElement.style.display='none';
                 }
             }
         } else {
-            resultDiv.textContent = 'Selecciona una opción';
+            resultDiv.textContent = 'Ups.';
             resultDiv.style.color = 'orange';
             resultDiv.style.fontWeight = 'normal'; // Asegurar que no esté en negrita si no se selecciona ninguna opción
         }
